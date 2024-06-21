@@ -30,10 +30,10 @@ The primary goal is to understand and improve various aspects of the e-commerce 
 
 **SQL Steps:**
 
--Joined `order_items` and `products` tables.
--Grouped by `product ID` and `category`.
--Calculated `total sales`, `average sales`, and `number of orders`.
--Ordered by `total sales` in descending order and selected the top 10 products.
+- Joined `order_items` and `products` tables.
+- Grouped by `product ID` and `category`.
+- Calculated `total sales`, `average sales`, and `number of orders`.
+- Ordered by `total sales` in descending order and selected the top 10 products.
 
 **SQL Query:**
 ```sql
