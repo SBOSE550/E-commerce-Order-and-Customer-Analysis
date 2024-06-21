@@ -47,16 +47,19 @@ Group By P.product_id,product_category
 ORDER BY total_salse DESC
 ```
 **Results**
-bb50f2e236e5eea0100680137654686c	HEALTH BEAUTY	63885	327.62	195
-6cdd53843498f92890544667809f1595	HEALTH BEAUTY	54730.2	350.83	156
-d6160fb7873f184099d9bc95e30376af	PCs	48899.34	1397.12	35
-d1c427060a0f73f6b889a5c7c61f2ac4	computer accessories	47214.51	137.65	343
-99a4788cb24856965c36a24e339b6058	bed table bath	43025.56	88.17	488
-3dd2a17168ec895c781a9191c1e95ad7	computer accessories	41082.6	149.94	274
-25c38557cf793876c5abdd5931f922db	babies	38907.32	1023.88	38
-5f504b3a1c75b73d6151be81eb05bdc9	Cool Stuff	37733.9	598.95	63
-53b36df67ebb7c41585e8d54d6772e08	Watches present	37683.42	116.67	323
-aca2eb7d00ea1a7b8ebd4e68314663af	Furniture Decoration	37608.9	71.36	527
+| product_id                           | product_category        | total_sales | avg_sales | num_orders |
+|--------------------------------------|-------------------------|-------------|-----------|------------|
+| bb50f2e236e5eea0100680137654686c     | HEALTH BEAUTY           | 63885       | 327.62    | 195        |
+| 6cdd53843498f92890544667809f1595     | HEALTH BEAUTY           | 54730.2     | 350.83    | 156        |
+| d6160fb7873f184099d9bc95e30376af     | PCs                     | 48899.34    | 1397.12   | 35         |
+| d1c427060a0f73f6b889a5c7c61f2ac4     | computer accessories    | 47214.51    | 137.65    | 343        |
+| 99a4788cb24856965c36a24e339b6058     | bed table bath          | 43025.56    | 88.17     | 488        |
+| 3dd2a17168ec895c781a9191c1e95ad7     | computer accessories    | 41082.6     | 149.94    | 274        |
+| 25c38557cf793876c5abdd5931f922db     | babies                  | 38907.32    | 1023.88   | 38         |
+| 5f504b3a1c75b73d6151be81eb05bdc9     | Cool Stuff              | 37733.9     | 598.95    | 63         |
+| 53b36df67ebb7c41585e8d54d6772e08     | Watches present         | 37683.42    | 116.67    | 323        |
+| aca2eb7d00ea1a7b8ebd4e68314663af     | Furniture Decoration    | 37608.9     | 71.36     | 527        |
+
 
 #### Insight:
 The top 10 products by sales revenue were identified, providing insight into which products are driving the most revenue.
